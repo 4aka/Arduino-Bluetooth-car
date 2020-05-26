@@ -36,3 +36,6 @@ Chinise car with two motors upgrades to bluetooth car
       - if command from serial matches to one of the case, Uno set HIGH signal to one of the motors.
 
 5. If command does not match it is ignored.
+
+
+![](Images/HowTo.png)
