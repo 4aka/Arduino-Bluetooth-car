@@ -28,7 +28,6 @@ void loop()
 {
   if (Serial.available() > 0)
   {
-    Stop();
     char command = Serial.read();
 
     // Serial.println(command);
@@ -44,6 +43,7 @@ void loop()
       case 'I': forward_right(); break; // drive forward and right
       case 'H': back_left();     break; // drive backward and left
       case 'J': back_right();    break; // drive backward and right
+      default: Stop(); break;
     }
   }
 }
