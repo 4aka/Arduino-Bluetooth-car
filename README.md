@@ -3,7 +3,7 @@ Chinise car with two motors upgrades to bluetooth car
 
 <b>What is used:</b>
 1. Arduino UNO (Copy).        
-    - I have been trying with Nano, but it does not worked for me. Maybei am try later again ;)
+    - I have been trying with Nano, but it does not worked for me. Maybe i am try later again ;)
 2. Bluetooth module HC-05.    
     - For easy way do not use HC-06 because of problem with Master-Slave.
 3. L298N driver for two motors with switch button.
